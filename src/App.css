@@ -1,0 +1,14 @@
+
+.body{
+  display: flex;
+  flex-direction: column;
+}
+.card{
+  border: 1px solid gray;
+  width: 250px;
+  text-align: center;
+  box-shadow: 5px 5px 5px 0.2px gray;
+  padding: 5px 0;
+  margin-top: 15px;
+  border-radius: 10px;
+}
