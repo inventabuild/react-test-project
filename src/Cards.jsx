@@ -21,7 +21,7 @@ function Cards(){
   return (
     
     
-      cardValues.map( (item) => {
+      cardValues.map( (value) => {
         <Card key={value.key} picture={value.picture} title={value.title} detail={value.detail} />
       })  
   )
