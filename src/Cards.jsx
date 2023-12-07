@@ -22,19 +22,9 @@ function Cards(){
     
     
       cardValues.map( (item) => {
-        // <Card key={value.key} picture={value.picture} title={value.title} detail={value.detail} />
-        <div>{item}</div>
-      })
-  
-  
-)
-
-  
+        <Card key={value.key} picture={value.picture} title={value.title} detail={value.detail} />
+      })  
+  )
 }
-
-// cardValues.map( (value) => {
-//   <Card key={value.key} picture={value.picture} title={value.title} detail={value.detail}
-//   />
-// })
 
 export default Cards;
